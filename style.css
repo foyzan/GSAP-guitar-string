@@ -1,29 +1,28 @@
+/* Reset margin, padding, and set box-sizing to border-box for all elements */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Set width and height to 100% for html and body, and add padding */
 html, body{
     width: 100%;
     height: 100%;
-   
+    padding: 10px;
 }
 
+/* Style for the first page, setting height and background color */
 #page1{
     height: 100%;
     background-color: #090909;
 }
 
-
-
-
-
+/* Center the content inside the #string div */
 #string{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-svg{
-}
+
 
