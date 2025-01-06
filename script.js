@@ -29,7 +29,7 @@ svg.addEventListener("mouseleave", function(event){
     // Animate the SVG path back to the final path
     gsap.to("svg path", {
         attr:{ d : finalPath },
-        duration: 1.2,
-        ease: "elastic.out(1,0.3)"
+        duration: 1.5,
+        ease: "elastic.out(1,0.1)"
     });
 });
